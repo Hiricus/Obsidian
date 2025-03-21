@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/OOP/Interfaces.md",
+                "file": "java/Stream API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interfaces"
+              "title": "Stream API"
             }
           }
         ]
@@ -172,13 +172,26 @@
   "lastOpenFiles": [
     "java/Serialization.md",
     "java/OOP/Interfaces.md",
-    "java/OOP",
+    "java/Multithreading/To learn.md",
     "java/Files.md",
-    "java/Multithreading/Thread pools.md",
-    "java/Collections/List.md",
     "java/Stream API.md",
-    "java/Collections",
+    "java/Syntax/keywords.md",
+    "SQL/use cases.md",
+    "SQL/useful methods.md",
+    "SQL/priorities and orders.md",
+    "SQL/keywords.md",
+    "SQL/datatypes.md",
+    "SQL/subqueries.md",
+    "Welcome.md",
+    "sql/subqueries.md",
+    "SQL",
+    "java/Syntax",
     "java/Untitled.md",
+    "java/Multithreading/Thread pools.md",
+    "java/Multithreading/Utility classes.md",
+    "java/OOP",
+    "java/Collections/List.md",
+    "java/Collections",
     "java/Multithreading",
     "pbs/Controllers.md",
     "java",
@@ -187,7 +200,6 @@
     "Spring/annotations.md",
     "pbs",
     "Spring/core.md",
-    "Welcome.md",
     "Spring"
   ]
 }
