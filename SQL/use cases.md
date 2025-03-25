@@ -109,3 +109,18 @@ WHERE price < ANY ( SELECT MIN(price)
 	GROUP BY author);
 ```
 
+## Получение второй самой дорогой книги
+В данном примере не используется доступ к списку по индексу. Вместо этого применяется вложенный подзапрос, ищущий максимальную цену, не равную найденной до этого максимальной цене.
+```sql
+select title, price
+from book
+where price = (select max(price) from book where price <> (select max(price) from book));
+```
+
+## Информация о самой дешёвой книге каждого автора
+Вывести информацию о самой дешевой книге каждого из авторов, а также цену самой дешевой книги из всех.
+```sql
+select title, author, price, (select min(price) from book) as cheapest_price
+from book
+where price in (select min(price) from book group by author);
+```
